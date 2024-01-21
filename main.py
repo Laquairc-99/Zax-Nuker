@@ -97,7 +97,7 @@ class Zax:
   async def logo(self):
 
     System.Clear()
-    System.Title("Zax Nuker ~ Vixer 99")
+    System.Title("Zax Nuker ~ Laquairc 99")
     Write.Print(self._logo, color=self.banner_color, interval=0.00)
     Write.Print("[1] Massban\n[2] Delete Channels\n[3] Delete Roles\n[4] Create Channels\n[5] Create Roles \n", color=self.choice_color, interval=0)
     global choice
